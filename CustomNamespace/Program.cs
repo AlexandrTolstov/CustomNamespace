@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyShapes;
 
 namespace CustomNamespace
 {
@@ -10,6 +11,9 @@ namespace CustomNamespace
     {
         static void Main(string[] args)
         {
+            Hexagon h = new Hexagon();
+            Circle c = new Circle();
+            Square s = new Square();
         }
     }
 }
